@@ -55,11 +55,14 @@ ul{
 
 @media (max-width: 800px){
     .navi{
-        height: 80px;
+        height: 70px;
     }
 
     .navbut{
-        margin:auto;
+        width: 100%;
+        align-self: center;
+        margin-top: 10px;
+        justify-content: center;
     }
 
     .mainbut:hover{
@@ -73,6 +76,7 @@ ul{
     }
 
     .mainbut{
+        font-size: 10px;
         padding: 10px 15px;
     }
     h1{
